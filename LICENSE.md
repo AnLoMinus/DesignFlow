@@ -1,57 +1,34 @@
-# License
-
-## DesignFlow (DF) — הנחיות עבודה למעצב/מתכנת
+MIT License
 
 Copyright (c) 2025 AnLoMinus
 
----
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-## הקשר
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-DesignFlow היא מערכת הנחיות עבודה המגדירה תהליך מחייב לעבודה בעיצוב ובפיתוח חזותי תחת AnLoMinus.
-
----
-
-## זכויות יוצרים
-
-כל התוכן במאגר זה הוא בבעלות AnLoMinus וצוות DesignFlow, מלבד השראות ותודות כאמור ב-`CREDITS.md`.
-
----
-
-## שימוש
-
-תוכן זה מיועד לשימוש פנימי בלבד בתהליכי עבודה של AnLoMinus וצוותי DesignFlow.
-
----
-
-## הגבלות
-
-אסור:
-- לעשות שימוש מסחרי ללא רשות
-- להעתיק או להפיץ את התוכן ללא רשות
-- להשתמש בשם/במותג DesignFlow ללא רשות
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
 ---
 
-## התחייבות
+## בנוסף - התחייבות DesignFlow
 
-בשימוש במערכת DesignFlow, אתה מסכים:
+בשימוש ב-DesignFlow מעבר לתנאי ה-MIT:
 
 1. לשמור על העקרונות האתיים והרוחניים המוגדרים ב-`VISION.md`
-2. לעקוב אחרי התהליך המחייב ב-`WORKFLOW.md`
-3. לוודא QA מלא לפי `QA_CHECKLIST.md`
-4. לכבד את הרגישויות והמגבלות שמוגדרות בכל פרויקט
+2. לכבד את הרגישויות והמגבלות שמוגדרות בכל פרויקט
+3. להימנע משימוש לא הולם בסמלים קדושים, שמות קדושים, ותוכן רוחני רגיש
+4. לתת קרדיט ל-`CREDITS.md` בהתאם
 
----
-
-## תודה
-
-תודה לכל התורמים והשותפים שמוזכרים ב-`CREDITS.md`.
-
----
-
-**לכל העבודה:** `WORKFLOW.md` 🔄  
-**הזכויות:** `CREDITS.md` 💼
-
-#DF #License
-
+#DF #MIT #License
