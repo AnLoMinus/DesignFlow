@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DesignFlow (DF) - הנחיות עבודה למעצב/מתכנת עם תהליך עבודה מחייב ו-QA מובנה">
+    <meta name="keywords" content="DesignFlow, DF, design guidelines, QA, workflow, AnLoMinus">
+    <title>DesignFlow (DF) - הנחיות עבודה למעצב/מתכנת</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <a href="#main" class="skip-link">דילוג לתוכן הראשי</a>
+    <header class="header" role="banner">
+        <div class="container">
+            <h1 class="logo">DesignFlow <span class="logo-accent">(DF)</span></h1>
+            <p class="tagline">תהליך לפני פיקסל • Process Before Pixel</p>
+        </div>
+    </header>
+
+    <main role="main" id="main">
+        <!-- Hero Section -->
+        <section class="hero" id="hero">
+            <div class="container">
+                <h2 class="hero-title">מערכת הנחיות עבודה מחייבה</h2>
+                <p class="hero-subtitle">לייצר שפה אחידה לכל מעצב/מתכנת חזותי בפרויקטים של AnLoMinus</p>
+                <div class="hero-buttons">
+                    <a href="#quickstart" class="btn btn-primary">התחל כאן</a>
+                    <a href="#workflow" class="btn btn-secondary">למידע נוסף</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Values Section -->
+        <section class="values" id="values">
+            <div class="container">
+                <h2 class="section-title">עקרונות מרכזיים</h2>
+                <div class="values-grid">
+                    <div class="value-card">
+                        <div class="value-icon">🔄</div>
+                        <h3>תהליך לפני פיקסל</h3>
+                        <p>כל שלב נסמך על השלב הקודם. אסור לדלג על שלבים. יש QA מובנה בכל שלב.</p>
+                    </div>
+                    <div class="value-card">
+                        <div class="value-icon">🙏</div>
+                        <h3>אחריות = קדושה</h3>
+                        <p>אתה שומר שער על שפת האור. שמירה על כבוד למה שקדוש ולרגישויות.</p>
+                    </div>
+                    <div class="value-card">
+                        <div class="value-icon">📚</div>
+                        <h3>תיעוד = חיים</h3>
+                        <p>כל החלטה מתועדת. אין החלטות "שקופות". הכל נבנה על הבסיס שהקודם השאיר.</p>
+                    </div>
+                    <div class="value-card">
+                        <div class="value-icon">📱</div>
+                        <h3>מובייל = מציאות</h3>
+                        <p>מובייל הוא לא תוסף — זה הבסיס. אם לא עובד במובייל — זה לא קיים.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quickstart Section -->
+        <section class="quickstart" id="quickstart">
+            <div class="container">
+                <h2 class="section-title">התחלה מהירה</h2>
+                <div class="steps">
+                    <div class="step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h3>קרא את VISION.md</h3>
+                            <p>להבין את מהות המאגר וערכיו</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h3>קרא את WORKFLOW.md</h3>
+                            <p>ללמוד את תהליך העבודה המלא</p>
+                        </div>
+                    </div>
+                    <div class="step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h3>בחר תבנית</h3>
+                            <p>מ-`DELIVERABLES_TEMPLATES/` ומלא בראש</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Workflow Section -->
+        <section class="workflow" id="workflow">
+            <div class="container">
+                <h2 class="section-title">התהליך המלא (6 שלבים)</h2>
+                <div class="workflow-steps">
+                    <div class="workflow-step">
+                        <div class="workflow-icon">📋</div>
+                        <h3>BRIEF</h3>
+                        <p>הגדרת משימה</p>
+                        <p class="workflow-description">מגדירים מטרה, קהל יעד, טון/אווירה, פורמטים דרושים, הגבלות טכניות
+                            ורגישויות</p>
+                    </div>
+                    <div class="workflow-arrow">➜</div>
+                    <div class="workflow-step">
+                        <div class="workflow-icon">🧱</div>
+                        <h3>WIREFRAME</h3>
+                        <p>שלד/מבנה</p>
+                        <p class="workflow-description">שרטוט מבנה ידני או Figma. בלי צבעים. רק היררכיה.</p>
+                    </div>
+                    <div class="workflow-arrow">➜</div>
+                    <div class="workflow-step">
+                        <div class="workflow-icon">🎨</div>
+                        <h3>VISUAL CONCEPT</h3>
+                        <p>שפה חזותית</p>
+                        <p class="workflow-description">צבעים, פונטים, moodboard. ננעל ב-STYLE_GUIDE.</p>
+                    </div>
+                    <div class="workflow-arrow">➜</div>
+                    <div class="workflow-step">
+                        <div class="workflow-icon">💻</div>
+                        <h3>IMPLEMENTATION</h3>
+                        <p>יישום / קוד</p>
+                        <p class="workflow-description">קבצי HTML/CSS/JS נקיים, נכסים גרפיים בפורמט הנכון.</p>
+                    </div>
+                    <div class="workflow-arrow">➜</div>
+                    <div class="workflow-step">
+                        <div class="workflow-icon">🧪</div>
+                        <h3>QA REVIEW</h3>
+                        <p>בקרת איכות</p>
+                        <p class="workflow-description">Responsiveness, Accessibility, Consistency, Performance,
+                            Respect.</p>
+                    </div>
+                    <div class="workflow-arrow">➜</div>
+                    <div class="workflow-step">
+                        <div class="workflow-icon">📤</div>
+                        <h3>HANDOFF</h3>
+                        <p>מסירה/גרסה</p>
+                        <p class="workflow-description">CHANGELOG, תגית גרסה, חתימה ב-CREDITS.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resources Section -->
+        <section class="resources" id="resources">
+            <div class="container">
+                <h2 class="section-title">קבצים מרכזיים</h2>
+                <div class="resources-grid">
+                    <div class="resource-category">
+                        <h3>חזון ותהליך</h3>
+                        <ul>
+                            <li>VISION.md — מהות המאגר</li>
+                            <li>WORKFLOW.md — התהליך המלא</li>
+                            <li>QA_CHECKLIST.md — צ'קליסט QA</li>
+                        </ul>
+                    </div>
+                    <div class="resource-category">
+                        <h3>Style Guide</h3>
+                        <ul>
+                            <li>STYLE_GUIDE/COLORS.md</li>
+                            <li>STYLE_GUIDE/TYPOGRAPHY.md</li>
+                            <li>STYLE_GUIDE/COMPONENTS_UI.md</li>
+                            <li>STYLE_GUIDE/ACCESSIBILITY.md</li>
+                        </ul>
+                    </div>
+                    <div class="resource-category">
+                        <h3>תבניות</h3>
+                        <ul>
+                            <li>LOGO_BRIEF_TEMPLATE.md</li>
+                            <li>LANDING_PAGE_BRIEF_TEMPLATE.md</li>
+                            <li>SOCIAL_POST_SET_TEMPLATE.md</li>
+                            <li>RESPONSIVE_LAYOUT_TEST.md</li>
+                        </ul>
+                    </div>
+                    <div class="resource-category">
+                        <h3>משפטי ותודות</h3>
+                        <ul>
+                            <li>LICENSE.md — MIT</li>
+                            <li>CREDITS.md — קרדיטים</li>
+                            <li>CONTRIBUTING.md — תרומה</li>
+                            <li>CODE_OF_CONDUCT.md — קוד התנהגות</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quote Section -->
+        <section class="quote">
+            <div class="container">
+                <blockquote class="quote-text">
+                    "אָז יִרְאוּ וְנָהָרוּ אֵלֶיךָ וּפְחַד וְרָחַב לְבָבֵךְ"
+                </blockquote>
+                <cite class="quote-cite">ישעיהו ס׳ ✨</cite>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>DesignFlow (DF)</h3>
+                    <p>תהליך לפני פיקסל</p>
+                </div>
+                <div class="footer-section">
+                    <h3>קישורים</h3>
+                    <ul>
+                        <li><a href="https://github.com/AnLoMinus/DesignFlow">GitHub</a></li>
+                        <li><a href="#quickstart">התחלה מהירה</a></li>
+                        <li><a href="#workflow">התהליך</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>אודות</h3>
+                    <ul>
+                        <li><a href="VISION.md">החזון</a></li>
+                        <li><a href="CREDITS.md">קרדיטים</a></li>
+                        <li><a href="CONTRIBUTING.md">להצטרף</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 AnLoMinus. נגזר מהאהבה.</p>
+                <p class="footer-verse">"וַיְהִי נֹעַם יְ־הֹוָ־ה אֱלֹהֵינוּ עָלֵינוּ, וּמַעֲשֵׂה יָדֵינוּ כּוֹנְנָה
+                    עָלֵינוּ" (תהלים צ׳, י״ז) 🙏</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
