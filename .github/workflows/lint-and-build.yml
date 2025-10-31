@@ -1,0 +1,47 @@
+name: Lint and Build
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main, develop ]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Check for markdown linting
+      uses: DavidAnson/markdownlint-cli2-action@v16
+      with:
+        globs: '*.md' '**/*.md' '!.github/**/*.md'
+
+  accessibility:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Note about accessibility
+      run: |
+        echo "DesignFlow requires accessibility testing."
+        echo "For automated checks, consider tools like Pa11y or WAVE."
+
+  documentation:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Check documentation completeness
+      run: |
+        echo "Checking for required DesignFlow documentation..."
+        if [ -f "VISION.md" ] && [ -f "WORKFLOW.md" ] && [ -f "QA_CHECKLIST.md" ]; then
+          echo "✅ Core documentation present"
+        else
+          echo "❌ Missing core documentation"
+          exit 1
+        fi
+

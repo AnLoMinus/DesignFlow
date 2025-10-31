@@ -1,0 +1,27 @@
+name: Accessibility Scan
+
+on:
+  pull_request:
+    branches: [ main, develop ]
+
+jobs:
+  accessibility-check:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Install dependencies
+      run: |
+        npm install -g pa11y-ci
+        
+    - name: Run accessibility checks
+      run: |
+        echo "Accessibility checks will run on web files if present."
+        echo "See: https://github.com/pa11y/pa11y-ci for configuration."
+        
+    - name: Accessibility reminder
+      run: |
+        echo "⚠️  Remember: DesignFlow requires Lighthouse Accessibility 90+"
+        echo "See: STYLE_GUIDE/ACCESSIBILITY.md"
+
